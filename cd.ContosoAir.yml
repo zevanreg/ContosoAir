@@ -18,6 +18,9 @@ resources:
 pool:
   name: MyPool
 
+workspace:
+  clean: all
+
 steps:
 - task: DownloadPipelineArtifact@2
   inputs:
